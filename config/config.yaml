@@ -1,0 +1,17 @@
+kafka:
+  bootstrap_servers: "localhost:9092"
+  topic: "clinical_events"
+
+oracle:
+  user: "your_user"
+  password: "your_password"
+  host: "localhost"
+  port: 1521
+  service_name: "ORCL"
+
+sql_server:
+  driver: "{ODBC Driver 18 for SQL Server}"
+  server: "localhost"
+  database: "HealthcareDB"
+  uid: "sa"
+  pwd: "your_password"
